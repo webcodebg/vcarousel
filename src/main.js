@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
+import Library from './Library.vue'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: h => h(Library),
+}).$mount('#package-testing-3382026139942824')
