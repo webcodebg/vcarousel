@@ -1,47 +1,19 @@
-# vCarousel
-Flexible, touch friendly carousel for vue
+# v-carousel
 
-# Installation
-
-via npm
-
-`npm install v-carousel`
-
-via cdn
-
-`<script src="https://cdn.jsdelivr.net/gh/webcodebg/vue-skeleton-loader/dist/vcarousel.min.js"></script>`
-
-clone repo
-
-`git clone https://github.com/webcodebg/vcarousel.git`
-
-# Usage
-## Importing the repo
-### Global usage
-```javascript
-import vCarousel from 'v-carousel'
-import Vue from 'vue'
-
-Vue.use(vCarousel)
+## Project setup
 ```
-### Local usage
-```javascript
-import { vCarousel } from 'v-carousel'
-export default {
-  components: {
-     vCarousel
-  }
-}
+npm install
 ```
-## Examples
-TODO: add examples
 
-# Issues and contributions
-If you want to report issue/improvements [create issue here](https://github.com/webcodebg/vcarousel/issues)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-For contributions read the guidelines in [CONTRIBUTING.md here](https://github.com/webcodebg/vcarousel/blob/master/CONTRIBUTING.md)
+### Compiles and minifies for production
+```
+npm run build
+```
 
-# Licence
-MIT License
-
-Copyright (c) 2019 Webcode
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
